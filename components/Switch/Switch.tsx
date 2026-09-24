@@ -34,6 +34,7 @@ const Switch = ({
       disabled={disabled}
       {...rest}
     >
+      <span>switch toggle</span>
       {variant === "common" && <span />}
       {variant === "contract" && (
         <span>
